@@ -51,10 +51,11 @@ This site uses **ScrollSmoother** and **SplitText** — the smooth scrolling and
 headline reveals. Both were Club GreenSock paid-only plugins until **April 2025**, when Webflow
 (which acquired GreenSock in October 2024) released the entire library free for commercial use.
 
-**Known issue:** the bundled GSAP files are **version 3.11.4 (2022)** and still carry the old
-restrictive header text — *"only authorized for use ... with an active Club GreenSock membership."*
-The plugins are free now, but this copy's licence text predates the change. Upgrading to
-**GSAP 3.13+** (free) replaces those headers with the current no-charge licence. Recommended.
+**Resolved:** the bundled GSAP files were originally **version 3.11.4 (2022)** and carried the old
+restrictive header — *"only authorized for use ... with an active Club GreenSock membership"* — which
+predated the licence change and misrepresented this project's licensing. All five files were upgraded
+to **3.13.0** from the public npm package and now carry the current GSAP standard (no-charge) licence.
+No membership text remains anywhere in the codebase.
 
 ---
 
@@ -66,7 +67,7 @@ vendor files and must not be stripped.
 
 | Component | Version | Licence | Cost |
 |---|---|---|---|
-| GSAP (+ ScrollSmoother, ScrollTrigger, SplitText, ScrollToPlugin) | 3.11.4 | GSAP standard (free since Apr 2025) | $0 |
+| GSAP (+ ScrollSmoother, ScrollTrigger, SplitText, ScrollToPlugin) | 3.13.0 | GSAP standard (free since Apr 2025) | $0 |
 | Bootstrap | 5.3.3 | MIT | $0 |
 | jQuery | 3.7.1 | MIT (OpenJS Foundation) | $0 |
 | Swiper | 6.5.0 | MIT | $0 |
